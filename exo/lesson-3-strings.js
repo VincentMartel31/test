@@ -51,9 +51,13 @@ let prenomClient ="Vincent";
 let nomClient = "Martel";
 let mailClient ="test@gmail.com";
 let pizza ="Reine";
-const nomResto = " \"La Pizzeria Raffinata\"";
+const nomResto = "\"La Pizzeria Raffinata\"";
 const blague = "Qu'est ce qu'une pizza dit à une autre pizza qui lui fait de l'ombre \n? \"Arrête de me trancher la route!\""
-let SumUpOrderPhrase = `Bonjour ${prenomClient} ${nomClient}, tu as commandé une pizza ${pizza}. Merci d'avoir commandé chez ${nomResto}, à bientôt! ${blague}`;
+let SumUpOrderPhrase = `Bonjour ${prenomClient} ${nomClient}, tu as commandé une pizza ${pizza}. 
+
+Merci d'avoir commandé chez ${nomResto}, à bientôt! 
+
+${blague}`;
 console.log(SumUpOrderPhrase);
 
 
