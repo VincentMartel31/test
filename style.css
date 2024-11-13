@@ -3,4 +3,10 @@
   color:aquamarine;
   text-align:center;
 }
-
+.image-clic {
+  position: absolute;
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+}

@@ -13,3 +13,13 @@ lien2.addEventListener("click",()=>{
 lien3.addEventListener("click",()=>{
     monh1.classList.toggle('color');
 })
+
+let body = document.body
+  
+
+
+
+
+
+                                                     
+                                                            
