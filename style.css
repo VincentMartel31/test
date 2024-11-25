@@ -1,12 +1,27 @@
-.color{
-  font-style: italic;
-  color:aquamarine;
-  text-align:center;
+
+.boxBar {
+  z-index: 1;
+  width: 100%;
+  border: 5px solid blueviolet;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
-.image-clic {
-  position: absolute;
+
+.bar {
+  height: 21px;
+  background: turquoise;
+  width: 0%;
 }
-.body{
-  width: 100vw;
-  height: 100vh;
+#maintitle{
+  text-align: center;
+  color:darkgoldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+  text-align: center;
+}
+#form{
+  text-align: center;
 }
