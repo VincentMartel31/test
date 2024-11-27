@@ -97,7 +97,7 @@ class Groupe {
             });
         }
 
-        throw new Error("Vous n'avez pas accès a ce groupe !!!!!");
+        throw new Error("Vous n'avez pas accès a ce groupe !!");
     }
 
     displayInfo() {
