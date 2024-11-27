@@ -29,7 +29,7 @@ class Imc {
      * Affiche les informations de la personne et son IMC dans la console.
      */
     display() {
-      console.log(`${this.name} (${this.poids} kg, ${this.taille} m) a un IMC de : `, this.getImc());
+      console.log(`${this.name} (${this.poids} kg, ${this.taille} m) a un IMC de : `, this.getImc().toFixed(2));
     }
   }
   
@@ -37,6 +37,11 @@ class Imc {
   let list = [
     new Imc("Sébastien Chabal", 135, 1.7),
     new Imc("Escaladeuse", 45, 1.68),
+    new Imc("JOJO",300, 2),
+    new Imc("Gntrand",90, 1.75),
+    new Imc("Colonel Clock",200, 1.75),
+    new Imc("Josianne de la Vega",99, 1.55),
+    new Imc("Moi",66,1.75),
     // ... autres personnes
   ];
   
